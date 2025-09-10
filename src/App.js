@@ -769,6 +769,7 @@ const ContactPage = () => {
                 value={formData.name}
                 onChange={handleInputChange}
                 required
+                className="placeholder:text-black"
               />
             </div>
             
@@ -781,6 +782,8 @@ const ContactPage = () => {
                 value={formData.email}
                 onChange={handleInputChange}
                 required
+                className="placeholder:text-black"
+
               />
             </div>
             
@@ -792,6 +795,8 @@ const ContactPage = () => {
                 name="phone"
                 value={formData.phone}
                 onChange={handleInputChange}
+                className="placeholder:text-black"
+
               />
             </div>
             
@@ -805,6 +810,8 @@ const ContactPage = () => {
                 onChange={handleInputChange}
                 placeholder="Ville ou commune..."
                 required
+                className="placeholder:text-black"
+
               />
             </div>
             
@@ -818,6 +825,8 @@ const ContactPage = () => {
                 rows="6"
                 placeholder="Votre message..."
                 required
+                className="placeholder:text-black"
+
               ></textarea>
             </div>
             
